@@ -1,101 +1,74 @@
-# Codekit Title
+# Getting Started with Create React App
 
-Simple overview of use and or purpose of this codekit
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Codekit Description
+## Available Scripts
 
-An in-depth paragraph about the codekit usage and how it'll be helpfull to the consumer.
+In the project directory, you can run:
 
-## Technologies Used
+### `npm start`
+add "start": "set NODE_ENV=development&& react-scripts start" to scripts in package.json
 
-- Technology 1
-  - framework
-  - Tool
-  - packages
-- Technology 2
-- Technology 3
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Prerequesites
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-1. To get started, you will need the following development tools installed:
+### `npm test`
 
-    * Tool1
-    * Tool2
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-2. Specify the cloud or API account needed to be created, if the codekit demonstrates an API integration
+### `npm run build`
+add "build": "set NODE_ENV=production&&set GENERATE_SOURCEMAP=false&& react-scripts build",
+to scripts in package.json
 
-    * Specify the API URL
-    * Describe how to create an API user account/sandbox
-    * Mention how to obtain API key/access token to consume that API
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-3. Clearly state where the code kit, those keys obtained from the above step to be used.  
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Packages installed in the codekit
+run this command to serve application on root: serve -s build -l 4000 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-List all the packages installed in the codekit with small description why that package is used and the package url if any
+### `npm run eject`
 
-1. Package1  
-   Package description and suitability 
-    
-    ```
-    Package url1
-    ```
-2. Package2  
-   Package description and suitability 
-    
-    ```
-    Package url
-    ```
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-### Codekit Configuration
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-List and describe if there is any configuration settings/variables/values in the Codekit.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. Config Setting1
-   
-   Setting1 file path 
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-    ```
-    setting1 code block with placeholders 'xxxxxxxxxxxx' for secret values
-    ```
+## Learn More
 
-Also Specify Any modifications needed to be made to any other files/folders before running the Codekit
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-### Building & Executing Codekit
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-* How to open, build and run the codekit
-* Step-by-step bullets
+### Code Splitting
 
-```
-code blocks for commands
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-## Help
-Any advise for common problems or issues.
+### Analyzing the Bundle Size
 
-```
-command to run if program contains helper info or helpful reference Urls
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-## Author
+### Making a Progressive Web App
 
-This codekit is designed and developed by www.codebuddy.com
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-## Version History
+### Advanced Configuration
 
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-## License
+### Deployment
 
-This CodeKit is licensed to codebuddy.com
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-## Acknowledgments
+### `npm run build` fails to minify
 
-Inspiration, code snippets, etc.
-* Supporting reference link 1
-* Supporting reference link 2
-* Supporting reference link 3
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
